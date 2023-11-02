@@ -43,4 +43,4 @@ jobs:
           context: .
           push: true
           target: production
-          tags: ${{ secrets.DOCKER_USERNAME }}/${{ github.event.repository.name.lowercase }}:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/petclinic:latest
